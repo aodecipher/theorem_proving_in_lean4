@@ -1,16 +1,16 @@
 import VersoManual
-import TPiL.Intro
-import TPiL.DependentTypeTheory
-import TPiL.PropositionsAndProofs
-import TPiL.QuantifiersEquality
-import TPiL.Tactics
-import TPiL.InteractingWithLean
-import TPiL.InductiveTypes
-import TPiL.InductionAndRecursion
-import TPiL.StructuresAndRecords
-import TPiL.TypeClasses
-import TPiL.Conv
-import TPiL.AxiomsComputation
+import TPiL.Ch01_Intro
+import TPiL.Ch02_DependentTypeTheory
+import TPiL.Ch03_PropositionsAndProofs
+import TPiL.Ch04_QuantifiersEquality
+import TPiL.Ch05_Tactics
+import TPiL.Ch06_InteractingWithLean
+import TPiL.Ch07_InductiveTypes
+import TPiL.Ch08_InductionAndRecursion
+import TPiL.Ch09_StructuresAndRecords
+import TPiL.Ch10_TypeClasses
+import TPiL.Ch11_Conv
+import TPiL.Ch12_AxiomsComputation
 
 open Verso.Genre Manual
 open Verso Code External
@@ -40,26 +40,26 @@ the Lean documentation to install Lean. The first version of this book was
 written for Lean 2, and the Lean 3 version is available
 [here](https://leanprover.github.io/theorem_proving_in_lean/).
 
-{include 1 TPiL.Intro}
+{include 1 TPiL.Ch01_Intro}
 
-{include 1 TPiL.DependentTypeTheory}
+{include 1 TPiL.Ch02_DependentTypeTheory}
 
-{include 1 TPiL.PropositionsAndProofs}
+{include 1 TPiL.Ch03_PropositionsAndProofs}
 
-{include 1 TPiL.QuantifiersEquality}
+{include 1 TPiL.Ch04_QuantifiersEquality}
 
-{include 1 TPiL.Tactics}
+{include 1 TPiL.Ch05_Tactics}
 
-{include 1 TPiL.InteractingWithLean}
+{include 1 TPiL.Ch06_InteractingWithLean}
 
-{include 1 TPiL.InductiveTypes}
+{include 1 TPiL.Ch07_InductiveTypes}
 
-{include 1 TPiL.InductionAndRecursion}
+{include 1 TPiL.Ch08_InductionAndRecursion}
 
-{include 1 TPiL.StructuresAndRecords}
+{include 1 TPiL.Ch09_StructuresAndRecords}
 
-{include 1 TPiL.TypeClasses}
+{include 1 TPiL.Ch10_TypeClasses}
 
-{include 1 TPiL.Conv}
+{include 1 TPiL.Ch11_Conv}
 
-{include 1 TPiL.AxiomsComputation}
+{include 1 TPiL.Ch12_AxiomsComputation}
